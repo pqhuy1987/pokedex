@@ -187,6 +187,7 @@
 				TargetAttributes = {
 					BB8E80C41D4F015D00786529 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JQNK74493B;
 					};
 				};
 			};
@@ -397,9 +398,11 @@
 			baseConfigurationReference = 703BDC361662B8883E22B399 /* Pods-pokedex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = pokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paperdo.pokedex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.pokedex.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -409,9 +412,11 @@
 			baseConfigurationReference = D6118162D908BC5E75DE9CBB /* Pods-pokedex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = pokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paperdo.pokedex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.pokedex.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
