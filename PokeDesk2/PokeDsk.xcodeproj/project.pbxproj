@@ -187,7 +187,7 @@
 				TargetAttributes = {
 					0A4142C51C5282A5002DEEE6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = JD4GPGY8U5;
+						DevelopmentTeam = JQNK74493B;
 					};
 				};
 			};
@@ -398,9 +398,11 @@
 			baseConfigurationReference = 6F81C4A7A5B590959CBF66CC /* Pods-PokeDsk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PokeDsk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Bagga.PokeDsk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.pokedex2.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +412,11 @@
 			baseConfigurationReference = EE1C2F70B6861D9A078BEA26 /* Pods-PokeDsk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PokeDsk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Bagga.PokeDsk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.pokedex2.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
